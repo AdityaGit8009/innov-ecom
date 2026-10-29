@@ -1,0 +1,253 @@
+/*
+* demo.css
+* File include item demo only specific css only
+******************************************************************************/
+
+.menu .app-brand.demo {
+  height: 64px;
+  margin-top: 12px;
+}
+
+.app-brand-logo.demo svg {
+  width: 22px;
+  height: 38px;
+}
+
+.app-brand-text.demo {
+  font-size: 1.75rem;
+  letter-spacing: -0.5px;
+}
+
+/* ! For .layout-navbar-fixed added fix padding top to .layout-page */
+/* Detached navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-horizontal):not(.layout-without-menu) .layout-page {
+  padding-top: 74px !important;
+}
+
+/* Default navbar */
+.layout-navbar-fixed .layout-wrapper:not(.layout-without-menu) .layout-page {
+  padding-top: 64px !important;
+}
+
+.docs-page .layout-navbar-fixed.layout-wrapper:not(.layout-without-menu) .layout-page,
+.docs-page .layout-menu-fixed.layout-wrapper:not(.layout-without-menu) .layout-page {
+  padding-top: 62px !important;
+}
+
+/* Navbar page z-index issue solution */
+.content-wrapper .navbar {
+  z-index: auto;
+}
+
+/*
+* Content
+******************************************************************************/
+
+.demo-blocks>* {
+  display: block !important;
+}
+
+.demo-inline-spacing>* {
+  margin: 1rem 0.375rem 0 0 !important;
+}
+
+/* ? .demo-vertical-spacing class is used to have vertical margins between elements. To remove margin-top from the first-child, use .demo-only-element class with .demo-vertical-spacing class. For example, we have used this class in forms-input-groups.html file. */
+.demo-vertical-spacing>* {
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+}
+
+.demo-vertical-spacing.demo-only-element> :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-lg>* {
+  margin-top: 1.875rem !important;
+  margin-bottom: 0 !important;
+}
+
+.demo-vertical-spacing-lg.demo-only-element> :first-child {
+  margin-top: 0 !important;
+}
+
+.demo-vertical-spacing-xl>* {
+  margin-top: 5rem !important;
+  margin-bottom: 0 !important;
+}
+
+.demo-vertical-spacing-xl.demo-only-element> :first-child {
+  margin-top: 0 !important;
+}
+
+/* Dropdown buttons going out of small screens */
+@media (max-width: 576px) {
+  #dropdown-variation-demo .btn-group .text-truncate {
+    width: 231px;
+    position: relative;
+  }
+
+  #dropdown-variation-demo .btn-group .text-truncate::after {
+    position: absolute;
+    top: 45%;
+    right: 0.65rem;
+  }
+}
+
+/*
+* Layout demo
+******************************************************************************/
+
+.layout-demo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.layout-demo-placeholder img {
+  width: 900px;
+}
+
+.layout-demo-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#productTable th,
+#productTable td {
+  white-space: nowrap;
+  /* Prevent text wrapping */
+  text-align: center;
+  /* Optional: center text */
+  vertical-align: middle;
+  /* Align vertically */
+}
+
+#productTable th {
+  min-width: 100px;
+  /* Default minimum width for all headers */
+}
+
+/* Specific widths for important columns */
+#productTable th:nth-child(1) {
+  min-width: 50px;
+}
+
+/* Sr No */
+#productTable th:nth-child(2) {
+  min-width: 150px;
+}
+
+/* Image */
+#productTable th:nth-child(3) {
+  min-width: 180px;
+}
+
+/* Title */
+#productTable th:nth-child(4) {
+  min-width: 120px;
+}
+
+/* Store */
+#productTable th:nth-child(5) {
+  min-width: 120px;
+}
+
+/* Seller */
+#productTable th:nth-child(6) {
+  min-width: 100px;
+}
+
+/* Price */
+#productTable th:nth-child(7) {
+  min-width: 100px;
+}
+
+/* Old Price */
+#productTable th:nth-child(8) {
+  min-width: 80px;
+}
+
+/* Discount */
+#productTable th:nth-child(9) {
+  min-width: 80px;
+}
+
+/* Rating */
+#productTable th:nth-child(10) {
+  min-width: 100px;
+}
+
+/* Ratings Count */
+#productTable th:nth-child(11) {
+  min-width: 100px;
+}
+
+/* Bought */
+#productTable th:nth-child(12) {
+  min-width: 80px;
+}
+
+/* Stock */
+#productTable th:nth-child(13) {
+  min-width: 120px;
+}
+
+/* Option1 / Brand */
+#productTable th:nth-child(14) {
+  min-width: 120px;
+}
+
+/* Option2 / Model */
+#productTable th:nth-child(15) {
+  min-width: 150px;
+}
+
+/* Option3 / Spec */
+#productTable th:nth-child(16) {
+  min-width: 150px;
+}
+
+/* Option4 / Feature */
+#productTable th:nth-child(17) {
+  min-width: 80px;
+}
+
+/* Status */
+#productTable th:nth-child(18) {
+  min-width: 160px;
+}
+
+#productTable th,
+#productTable td {
+  white-space: nowrap;
+  /* Prevent wrapping */
+  text-align: center;
+  vertical-align: middle;
+}
+
+#productTable th:nth-child(2),
+#productTable th:nth-child(3),
+#productTable th:nth-child(4),
+#productTable th:nth-child(5),
+#productTable th:nth-child(6) {
+  min-width: 80px;
+  /* Images */
+}
+
+#productTable th:nth-child(7),
+#productTable th:nth-child(16),
+#productTable th:nth-child(17),
+#productTable th:nth-child(18),
+#productTable th:nth-child(19),
+#productTable th:nth-child(20) {
+  min-width: 120px;
+  /* Brand, Model, Spec, Feature */
+}

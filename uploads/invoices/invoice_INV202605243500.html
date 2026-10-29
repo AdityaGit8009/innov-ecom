@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Invoice INV202605243500</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 20px; color: #111; background: #fff; }
+    .invoice-box { max-width: 1100px; margin: auto; border: 2px solid #000; padding: 18px; background:#fff; }
+    .top-head { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid #000; padding-bottom: 12px; margin-bottom: 14px; gap:20px; }
+    .company-name { font-size: 28px; font-weight: 700; }
+    .small { font-size: 12px; line-height: 20px; }
+    .invoice-title { font-size: 34px; font-weight: 700; text-align: right; white-space:nowrap; }
+    .info-table { width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 14px; }
+    .info-table td { border: 1px solid #000; padding: 14px; font-size: 13px; vertical-align: top; line-height: 24px; }
+    .address-title { font-size: 16px; font-weight: 700; margin-bottom: 10px; color: #111827; border-bottom: 1px dashed #ccc; padding-bottom: 6px; }
+    .product-table { width: 100%; border-collapse: collapse; }
+    .product-table th, .product-table td { border: 1px solid #000; padding: 8px; font-size: 13px; }
+    .product-table th { background: #f3f4f6; text-align: center; }
+    .text-center { text-align: center; }
+    .text-right { text-align: right; }
+    .totals { width: 420px; margin-left: auto; margin-top: 18px; border-collapse: collapse; }
+    .totals td { border: 1px solid #000; padding: 10px; font-size: 14px; }
+    .grand-total { background: #f3f4f6; font-size: 18px; font-weight: 700; }
+    .footer { margin-top: 35px; font-size: 12px; line-height: 22px; }
+    .signature { text-align: right; margin-top: 40px; }
+    .btn-area { margin:0 auto 20px; max-width:1100px; }
+    .btn { display: inline-block; padding: 10px 16px; background: #ff5a1f; color: #fff !important; text-decoration: none; border-radius: 6px; border: 0; cursor: pointer; margin-right: 10px; font-weight:700; }
+    @media print { .btn-area { display: none; } body { margin: 0; } }
+    @media(max-width:768px){ body{margin:10px}.invoice-box{overflow-x:auto}.top-head{display:block}.invoice-title{text-align:left;margin-top:15px;white-space:normal}.totals{width:100%}.product-table{min-width:980px} }
+  </style>
+</head>
+<body>
+  
+  <div class="invoice-box">
+    <div class="top-head">
+      <div>
+        <div class="company-name">Softpro India Computer Technologies (P) Limited</div>
+        <div class="small">
+          <span style="font-weight:700;">
+            Near New Hanuman Temple <br>
+            Kapoorthala, Aliganj - 226006 <br>
+            Lucknow (UP) - 226006 <br>
+            Call: +91 7080102007 <br>
+            Email: hr@softproindia.in
+          </span>
+        </div>
+      </div>
+      <div class="invoice-title">
+        TAX INVOICE
+        <div class="small" style="margin-top:10px;">
+          Invoice No: <b>INV202605243500</b><br>
+          Date: <b>24-05-2026</b><br>
+          Order ID: <b>ORD20260524050229456</b>
+                  </div>
+      </div>
+    </div>
+
+    <table class="info-table">
+      <tr>
+        <td width="50%">
+          <div class="address-title">BILL TO</div>
+          <b>Name:</b> Aditya pratap<br>
+          <b>Mobile:</b> 7390916220<br>
+          <b>Email:</b> adityapratap7391@gmail.com<br>
+          <b>Billing Address:</b> Chinhat, Uttar Pradesh, 226028        </td>
+        <td width="50%">
+          <div class="address-title">SHIP TO</div>
+          <b>Name:</b> Aditya pratap<br>
+          <b>Mobile:</b> 7390916220<br>
+          <b>Email:</b> adityapratap7391@gmail.com<br>
+          <b>Shipping Address:</b> Chinhat, Uttar Pradesh, 226028        </td>
+      </tr>
+    </table>
+
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>SR</th>
+          <th>Product</th>
+          <th>HSN</th>
+          <th>Qty</th>
+          <th>Actual Price</th>
+          <th>Service Tax</th>
+          <th>Taxable Amount</th>
+          <th>GST %</th>
+          <th>GST Amount</th>
+          <th>Final Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+                <tr>
+          <td class="text-center">1</td>
+          <td>7-Segment Displays</td>
+          <td class="text-center">8542</td>
+          <td class="text-center">2</td>
+          <td class="text-right">₹119</td>
+          <td class="text-right">₹2.38</td>
+          <td class="text-right">₹121.38</td>
+          <td class="text-center">18%</td>
+          <td class="text-right">₹21.85</td>
+          <td class="text-right">₹143.23</td>
+          <td class="text-right">₹286.46</td>
+        </tr>
+              </tbody>
+    </table>
+
+    <table class="totals">
+      <tr><td>Actual Amount</td><td class="text-right">₹238</td></tr>
+      <tr><td>Service Tax Total</td><td class="text-right">₹4.76</td></tr>
+      <tr><td>Taxable Amount</td><td class="text-right">₹242.76</td></tr>
+      <tr><td>GST Total</td><td class="text-right">₹43.70</td></tr>
+      <tr class="grand-total"><td>Grand Total</td><td class="text-right">₹286.46</td></tr>
+    </table>
+
+    <div class="footer">
+      <b>Payment Method:</b> COD<br>
+      <b>Payment Status:</b> Pending<br>
+      <b>Order Status:</b> Delivered<br><br>
+      This is a computer generated invoice.
+      <div class="signature">
+        <b>For Softpro India Computer Technologies (P) Limited</b><br><br><br>
+        Authorised Signatory
+      </div>
+    </div>
+  </div>
+</body>
+</html>

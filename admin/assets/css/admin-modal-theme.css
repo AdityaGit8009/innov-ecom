@@ -1,0 +1,120 @@
+/* Global admin modal theme: keeps every Bootstrap modal consistent with Products/Categories/Sub-categories modals. */
+.modal .modal-content,
+.admin-modal .modal-content {
+    border: 0 !important;
+    border-radius: 16px !important;
+    overflow: hidden !important;
+    background: #ffffff !important;
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25) !important;
+}
+
+.modal .modal-header,
+.admin-modal .modal-header,
+.modal-header.bg-danger,
+.modal-header.bg-primary,
+.modal-header.bg-warning,
+.modal-header.bg-success,
+.modal-header.bg-info,
+.modal-header.bg-dark {
+    background: #ffffff !important;
+    color: #334155 !important;
+    border-bottom: 1px solid #e5e7eb !important;
+    padding: 18px 22px !important;
+    border-radius: 16px 16px 0 0 !important;
+}
+
+.modal .modal-title,
+.modal .modal-header h1,
+.modal .modal-header h2,
+.modal .modal-header h3,
+.modal .modal-header h4,
+.modal .modal-header h5,
+.admin-modal .modal-title,
+.admin-modal .modal-header h5,
+#modalTitle,
+#catTitle,
+#subCatTitle {
+    margin: 0 !important;
+    font-weight: 800 !important;
+    color: #334155 !important;
+}
+
+.modal .btn-close,
+.admin-modal .btn-close,
+.modal-header .btn-close-white,
+.modal-header .btn-close.text-white {
+    filter: none !important;
+    opacity: .75 !important;
+    color: #334155 !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.modal .btn-close:hover,
+.admin-modal .btn-close:hover {
+    opacity: 1 !important;
+}
+
+.modal .modal-body,
+.admin-modal .modal-body {
+    padding: 22px !important;
+    background: #ffffff !important;
+}
+
+.modal .modal-footer,
+.admin-modal .modal-footer {
+    border-top: 1px solid #e5e7eb !important;
+    padding: 16px 22px !important;
+    background: #ffffff !important;
+}
+
+.modal .form-label,
+.admin-modal .form-label {
+    font-weight: 700 !important;
+    color: #334155 !important;
+    margin-bottom: 6px !important;
+}
+
+.modal .form-control,
+.modal .form-select,
+.admin-modal .form-control,
+.admin-modal .form-select {
+    border-radius: 9px !important;
+    border: 1px solid #d1d5db !important;
+    padding: 10px 12px !important;
+    font-size: 14px !important;
+}
+
+.modal .form-control:focus,
+.modal .form-select:focus,
+.admin-modal .form-control:focus,
+.admin-modal .form-select:focus {
+    border-color: #ff5a1f !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 90, 31, .14) !important;
+}
+
+.modal .btn-success,
+.modal .btn-primary,
+.admin-modal .btn-success,
+.admin-modal .btn-primary {
+    background: #ff5a1f !important;
+    border-color: #ff5a1f !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+}
+
+.modal .btn-success:hover,
+.modal .btn-primary:hover,
+.admin-modal .btn-success:hover,
+.admin-modal .btn-primary:hover {
+    background: #e94c12 !important;
+    border-color: #e94c12 !important;
+}
+
+.modal .btn-light,
+.admin-modal .btn-light {
+    background: #f8fafc !important;
+    border: 1px solid #e5e7eb !important;
+    color: #334155 !important;
+    font-weight: 700 !important;
+}

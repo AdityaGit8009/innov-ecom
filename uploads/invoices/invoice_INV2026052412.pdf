@@ -1,0 +1,84 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 813 >>
+stream
+BT
+/F1 11 Tf
+50 790 Td
+14 TL
+(SOFTPRO INNOVATIONS) Tj
+T*
+(Tax Invoice) Tj
+T*
+(Invoice No: INV2026052412) Tj
+T*
+(Order No: ORD20260524052838827) Tj
+T*
+(Invoice Date: 24 May 2026) Tj
+T*
+(Payment Method: ONLINE | Payment Status: Paid) Tj
+T*
+( ) Tj
+T*
+(Bill To:) Tj
+T*
+(Name: Aditya pratap) Tj
+T*
+(Email: adityapratap7391@gmail.com) Tj
+T*
+(Phone: 7390916220) Tj
+T*
+(Address: Chinhat, Uttar Pradesh, 226028) Tj
+T*
+( ) Tj
+T*
+(Items:) Tj
+T*
+(Product Qty Price Total) Tj
+T*
+(---------------------------------------------------------------------------) Tj
+T*
+(TFT 1 Rs. 716.14 Rs. 716.14) Tj
+T*
+(7-Segment Displays 1 Rs. 143.23 Rs. 143.23) Tj
+T*
+( ) Tj
+T*
+(Tax Amount: Rs. 131.09) Tj
+T*
+(Delivery Charge: Rs. 0.00) Tj
+T*
+(Grand Total: Rs. 859.37) Tj
+T*
+( ) Tj
+T*
+(Thank you for shopping with Softpro Innovations.) Tj
+T*
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1175
+%%EOF
